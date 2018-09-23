@@ -1,2 +1,4 @@
-<ap-photo url="https://media3.giphy.com/media/ZNegC7wFpuQT7nurZ0/giphy.gif" descricao="Cachorro Andando"></ap-photo>
-<ap-photo url="https://media0.giphy.com/media/tKImQFXQAEyYbu8Mb1/giphy.gif" descricao="Cachorro Tocando"></ap-photo>
+<ap-photo *ngFor="let photo of photos" 
+    [url]="photo.url" 
+    [descricao]="photo.descricao">
+</ap-photo>
