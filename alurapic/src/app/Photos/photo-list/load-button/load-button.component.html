@@ -1,0 +1,8 @@
+<div class="text-center" *ngIf="hasMore; else mensagem">
+  <button class="btn btn-primary">
+    Clique para carregar mais...
+  </button>
+</div>
+<ng-template #mensagem>
+  <p class="text-center text-muted">Não possui mais dados para carregar!</p>
+</ng-template>
