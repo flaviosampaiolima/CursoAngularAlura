@@ -17,6 +17,6 @@ import { ErrorsModule } from './errors/errors.module';
     ErrorsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
